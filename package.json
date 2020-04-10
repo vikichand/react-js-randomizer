@@ -1,0 +1,76 @@
+{
+  "name": "react-js-randomizer",
+  "version": "1.0.0",
+  "private": false,
+  "description": "React JS Randomizer",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint \"{,!(node_modules)/**/}*.{js,jsx}\"",
+    "lint:fix": "prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikichand/react-js-randomizer.git"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "randomizer",
+    "javascript"
+  ],
+  "author": "Vikash Chand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vikichand/react-js-randomizer/issues"
+  },
+  "homepage": "https://vikichand.github.io/react-js-randomizer/",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.3",
+    "prettier": "^2.0.4",
+    "prettier-eslint-cli": "^5.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "yarn run lint:fix",
+      "git add"
+    ]
+  }
+}
