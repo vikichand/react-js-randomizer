@@ -1,5 +1,6 @@
 [![MIT License](https://img.shields.io/github/license/vikichand/react-js-randomizer.svg)](https://github.com/vikichand/react-js-randomizer/blob/master/LICENSE)
 [![Build Status](https://travis-ci.com/vikichand/react-js-randomizer.svg?branch=master)](https://travis-ci.com/vikichand/react-js-randomizer)
+[![GitHub deployments](https://img.shields.io/github/deployments/vikichand/react-js-randomizer/github-pages)](https://vikichand.github.io/react-js-randomizer/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
