@@ -3,19 +3,19 @@ import './App.styles.css';
 
 // const defaultItems = [
 //     {
-//         text: "options 1",
-//         selected: false
+//         text: 'options 1',
+//         selected: false,
 //     },
 
 //     {
-//         text: "options 2",
-//         selected: true
+//         text: 'options 2',
+//         selected: true,
 //     },
 
 //     {
-//         text: "options 3",
-//         selected: false
-//     }
+//         text: 'options 3',
+//         selected: false,
+//     },
 // ];
 
 function App() {
@@ -74,17 +74,17 @@ function App() {
         <>
             <div className="container mx-auto bg-white shadow-xl w-full sm:w-2/4 h-auto p-4 rounded-md">
                 <form onSubmit={handleSubmit}>
-                    <div>
+                    <div className="flex">
                         <input
                             type="text"
-                            className="bg-transparent hover:shadow-sm text-gray-600 placeholder-gray-400 py-2 px-4 mr-3 my-3 focus:outline-none focus:bg-white focus:shadow-sm focus:border-gray-300 rounded-full"
+                            className="flex-auto bg-transparent hover:shadow-sm text-gray-600 placeholder-gray-400 py-2 px-4 mr-3 my-3 focus:outline-none focus:bg-white focus:shadow-sm focus:border-gray-300 rounded-full"
                             placeholder="Enter Options"
                             value={inputValue}
                             onChange={(e) => {
                                 setInputValue(e.target.value);
                             }}
                         />
-                        <button className="bg-transparent text-pink-300 py-2 px-4 font-extrabold border border-transparent hover:border-pink-200 focus:outline-none rounded-full">
+                        <button className=" bg-transparent text-pink-300 py-2 px-4 font-extrabold border border-transparent hover:border-pink-200 focus:outline-none rounded-full">
                             Add
                         </button>
                     </div>
