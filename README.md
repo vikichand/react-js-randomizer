@@ -3,6 +3,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo
+
+[React JS Randomizer](https://vikichand.github.io/react-js-randomizer/).
+
 ## Quick Start
 
 :fire: &nbsp; Clone repository
@@ -10,6 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ```sh
 git clone https://github.com/vikichand/react-js-randomizer.git
 ```
+
 <hr>
 
 :rocket: &nbsp; **Stay tuned**.

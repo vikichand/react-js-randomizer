@@ -84,7 +84,7 @@ function App() {
                                 setInputValue(e.target.value);
                             }}
                         />
-                        <button className=" bg-transparent text-pink-300 py-2 px-4 font-extrabold border border-transparent hover:border-pink-200 focus:outline-none rounded-full">
+                        <button className="bg-transparent text-pink-300 py-2 px-4 font-extrabold border border-transparent hover:border-pink-200 focus:outline-none rounded-full">
                             Add
                         </button>
                     </div>
