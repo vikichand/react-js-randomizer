@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab3622bd646f7db9ca9d66181095b33f",
+    "revision": "08d646a7bb7a996c2f99a11254ff3f21",
     "url": "/react-js-randomizer/index.html"
   },
   {
-    "revision": "70796a3e5acebf1a3753",
+    "revision": "36746d7e251681bdec1c",
     "url": "/react-js-randomizer/static/css/main.52dee186.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-js-randomizer/static/js/2.deae5766.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "70796a3e5acebf1a3753",
-    "url": "/react-js-randomizer/static/js/main.a38b6c2b.chunk.js"
+    "revision": "36746d7e251681bdec1c",
+    "url": "/react-js-randomizer/static/js/main.6895a0bb.chunk.js"
   },
   {
     "revision": "cc042c7890dedba5482f",
