@@ -1,3 +1,4 @@
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/vikichand/react-js-randomizer)](https://github.com/vikichand/react-js-randomizer/releases)
 [![MIT License](https://img.shields.io/github/license/vikichand/react-js-randomizer.svg)](https://github.com/vikichand/react-js-randomizer/blob/master/LICENSE)
 [![Build Status](https://travis-ci.com/vikichand/react-js-randomizer.svg?branch=master)](https://travis-ci.com/vikichand/react-js-randomizer)
 [![GitHub deployments](https://img.shields.io/github/deployments/vikichand/react-js-randomizer/github-pages)](https://vikichand.github.io/react-js-randomizer/)
